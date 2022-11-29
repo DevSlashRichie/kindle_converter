@@ -1,0 +1,16 @@
+[package]
+name = "skc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ricardo Rodriguez <romr020606@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+worker = "0.0.12"
+async-trait = "0.1.58"
+thiserror = "1.0.37"
+wkhtmltopdf = "0.4.0"
+reqwest = { version = "0.11.13", features = ["json", "cookies"] }
+serde_json = "1.0.89"
+serde = "1.0.147"

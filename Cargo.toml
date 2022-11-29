@@ -1,0 +1,11 @@
+
+[workspace]
+members = [
+    "bin",
+    "skc",
+]
+
+
+[profile.release]
+opt-level = 3
+debug = true

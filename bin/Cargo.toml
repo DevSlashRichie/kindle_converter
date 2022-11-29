@@ -1,0 +1,8 @@
+[package]
+name = "bin"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+skc = { path = "../skc" }
+tokio = { version = "1.22.0", features = ["full"] }
